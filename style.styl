@@ -27,12 +27,11 @@ h1
 
 h2
 	text-shadow 0 1px 0
-	background-color rgba(205,0,47,0.8)
 	padding 10px auto
 	margin 5px auto
 	font-size 2em
 	font-family 'Righteous', cursive
-	color #ededed
+	color rgba(205,0,47,0.8)
 	width 100%
 	text-align left
 
@@ -53,6 +52,7 @@ header #top
 	display block
 	padding 0
 	margin 0
+	border-bottom 5px solid rgba(205,0,47,0.8)
 	
 .logo	
 	text-shadow 0 1px 0 #eee
@@ -107,7 +107,6 @@ nav ul li a
 	margin 10px auto
 	padding 60px 0 5px 0
 	text-align center
-	
 
 .banner
 	width 90%
@@ -127,10 +126,14 @@ nav ul li a
 	display inline-block
 	vertical-align top
 	margin 10px auto
-	padding 5px 10px
-	background-color #409F89
-	border-radius 2px
+	padding 5px 2px
+	background-color rgba(205,0,47,0.8)
+	border-top-left-radius 2px
+	border-bottom-left-radius 2px
 	box-shadow -1px 0px 5px 1px
+
+.perfil a
+			color #aaa
 
 .perfil .avatar
 	width 20%
@@ -138,8 +141,7 @@ nav ul li a
 	margin 5px
 	display inline-block
 	vertical-align top
-	border 5px solid #ccc
-	box-shadow 0 0 1px 1px
+	box-shadow 0 0 2px 1px
 	border-radius 5px
 		
 .perfil p
@@ -160,11 +162,12 @@ nav ul li a
 	width 30%
 	display inline-block
 	vertical-align top
-	margin 10px auto 10px 10px
+	margin 10px auto 10px 5px
 	padding 5px 10px 
 	background-color #ccc
 	border 5px solid #ababab
-	border-radius 2px
+	border-top-right-radius 2px
+	border-bottom-right-radius 2px
 	box-shadow 1px 0px 5px 1px
 	text-align left
 					
@@ -226,8 +229,7 @@ figure
 	padding 0
 	display inline-block
 	vertical-align top
-	border 5px solid #DF6C4F
-	background-color #DF6C4F
+	background-color rgba(205,0,47,0.8)
 	border-radius 5px
 	trasition all 1s ease
 	box-shadow 0 0 3px 2px
@@ -257,7 +259,6 @@ figure a:hover
 	background-color #1A99AA
 	text-align center
 	padding 1em
-	border-radius 5px
 	vertical-align top
 	display inline-block
 
@@ -283,12 +284,15 @@ figure a:hover
 .boton:hover
 	background-color #FFBB73
 
+#formulario, #socialm
+		border-bottom-left-radius 5px
+		border-bottom-right-radius 5px
+
 #socialm
 	width 45%
 	background-color #1A99AA
 	text-align center
 	padding 1em
-	border-radius 5px
 	vertical-align top
 	display inline-block
 

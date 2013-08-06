@@ -49,10 +49,10 @@ table{border-collapse:collapse;border-spacing:0}
 html{text-align:center;padding:0;margin:0;background-color:#121212}
 body{margin:0 auto;background-image:url("img/pattern3.png");background-color:rgba(60,60,60,0.5);font-size:16px;padding:0;text-align:center;font-family:'Merriweather Sans',sans-serif}
 h1{font-family:'Righteous',cursive;font-size:2.2em}
-h2{text-shadow:0 1px 0;background-color:rgba(205,0,47,0.8);padding:10px auto;margin:5px auto;font-size:2em;font-family:'Righteous',cursive;color:#ededed;width:100%;text-align:left}
+h2{text-shadow:0 1px 0;padding:10px auto;margin:5px auto;font-size:2em;font-family:'Righteous',cursive;color:rgba(205,0,47,0.8);width:100%;text-align:left}
 h3{margin:10px auto}
 header{width:100%;position:fixed;top:0;margin:0 auto;padding:0;box-shadow:0 0 10px 2px}
-header #top{width:100%;background-color:#409f89;display:block;padding:0;margin:0}
+header #top{width:100%;background-color:#409f89;display:block;padding:0;margin:0;border-bottom:5px solid rgba(205,0,47,0.8)}
 .logo{text-shadow:0 1px 0 #eee;display:inline-block;vertical-align:top;width:48%;margin:0;padding:0;transition:all 1s ease;cursor:pointer}
 .logo:hover{color:#cd002f}
 nav{width:48%;display:inline-block;vertical-align:top;margin:0;padding:0}
@@ -64,11 +64,12 @@ nav ul li a{text-decoration:none;color:#fff;display:block;height:100%;text-align
 .banner{width:90%;height:100%;margin:0 auto}
 .banner img{width:100%;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
 #info{width:100%}
-.perfil{width:50%;display:inline-block;vertical-align:top;margin:10px auto;padding:5px 10px;background-color:#409f89;border-radius:2px;box-shadow:-1px 0 5px 1px}
-.perfil .avatar{width:20%;padding:0;margin:5px;display:inline-block;vertical-align:top;border:5px solid #ccc;box-shadow:0 0 1px 1px;border-radius:5px}
+.perfil{width:50%;display:inline-block;vertical-align:top;margin:10px auto;padding:5px 2px;background-color:rgba(205,0,47,0.8);border-top-left-radius:2px;border-bottom-left-radius:2px;box-shadow:-1px 0 5px 1px}
+.perfil a{color:#aaa}
+.perfil .avatar{width:20%;padding:0;margin:5px;display:inline-block;vertical-align:top;box-shadow:0 0 2px 1px;border-radius:5px}
 .perfil p{width:70%;padding:5px 2px;margin:0;text-align:justify;display:inline-block;vertical-align:top;color:#010101;font-size:1.2em}
 .perfil .avatar img{width:100%;padding:0}
-#conocimientos{width:30%;display:inline-block;vertical-align:top;margin:10px auto 10px 10px;padding:5px 10px;background-color:#ccc;border:5px solid #ababab;border-radius:2px;box-shadow:1px 0 5px 1px;text-align:left}
+#conocimientos{width:30%;display:inline-block;vertical-align:top;margin:10px auto 10px 5px;padding:5px 10px;background-color:#ccc;border:5px solid #ababab;border-top-right-radius:2px;border-bottom-right-radius:2px;box-shadow:1px 0 5px 1px;text-align:left}
 #conocimientos ul li{display:inline-block;vertical-align:top;margin:5px auto}
 .marcado1{background-color:#ddd;display:block;transition:all .6s ease}
 .marcado1:hover{background-color:#409f89;cursor:pointer}
@@ -78,24 +79,25 @@ nav ul li a{text-decoration:none;color:#fff;display:block;height:100%;text-align
 #conocimientos ul li img{border-radius:5px}
 #minicontacto{width:100%;text-align:center;padding:5px auto;margin:10px auto;display:block;font-size:1em;background-color:#ccc;bottom:0}
 #portafolio{width:90%;margin:10px auto;padding:10px 0 5px 0;color:#4d003c}
-figure{width:35%;margin:10px 5px;padding:0;display:inline-block;vertical-align:top;border:5px solid #df6c4f;background-color:#df6c4f;border-radius:5px;trasition:all 1s ease;box-shadow:0 0 3px 2px}
+figure{width:35%;margin:10px 5px;padding:0;display:inline-block;vertical-align:top;background-color:rgba(205,0,47,0.8);border-radius:5px;trasition:all 1s ease;box-shadow:0 0 3px 2px}
 figure img{border-radius:.2em;width:80%}
 figure:hover{color:#f30021}
 figure a{trasition:all 1s ease}
 figure a:hover{transform:rotate -180deg}
 #contacto{width:90%;margin:10px auto;padding:10px 0 5px 0;text-align:center}
-#formulario{width:45%;background-color:#1a99aa;text-align:center;padding:1em;border-radius:5px;vertical-align:top;display:inline-block}
+#formulario{width:45%;background-color:#1a99aa;text-align:center;padding:1em;vertical-align:top;display:inline-block}
 #formulario p{width:100%;font-size:1.5em;margin:.5em}
 .inputemail,.inputname,.inputmensaje{width:85%;border-radius:5px}
 .boton{width:85%;height:60px;padding:0;margin:0;border-radius:5px;background-color:#ffa240;color:#343434;transition:all .5 ease}
 .boton:hover{background-color:#ffbb73}
-#socialm{width:45%;background-color:#1a99aa;text-align:center;padding:1em;border-radius:5px;vertical-align:top;display:inline-block}
+#formulario,#socialm{border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+#socialm{width:45%;background-color:#1a99aa;text-align:center;padding:1em;vertical-align:top;display:inline-block}
 #socialm a{font-size:2em}
 footer{width:90%;height:100px;margin:0 auto 50px auto}
 @media screen and (max-width:950px){.perfil,#conocimientos,#contacto{width:90%;display:block;border:0;padding:5px;margin:0 auto}
 h2{width:92%}
 #conocimientos h3{display:inline-block}
-#socialm,#formulario{width:40%}
+#socialm,#formulario{width:40%;border-radius:0}
 figure{width:43%}
 }@media screen and (max-width:800px){#formulario,#socialm{width:90%;display:block;border:0;padding:5px;margin:0 auto}
 figure{width:43%}
