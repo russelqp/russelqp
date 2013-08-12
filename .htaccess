@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+
+<IfModule mod_expires.c>
+<filesmatch "\.(jpg|JPG|gif|GIF|png|PNG|css|js)$">
+ExpiresActive on
+ExpiresDefault "access plus 30 day"
+</filesmatch>
+</IfModule>
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
