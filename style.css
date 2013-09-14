@@ -60,7 +60,7 @@ nav ul{padding:0;margin:0;list-style:none}
 nav ul li{display:inline-block;background-color:#333;text-align:center;text-decoration:none;height:50px;transition:all 1s ease;box-shadow:0 0 3px 0;margin:5px auto;padding-top:10px;background-color:rgba(205,0,47,0.4)}
 nav ul li:hover{background-color:#cd002f}
 nav ul li a{text-decoration:none;color:#fff;display:block;height:100%;text-align:center;padding:5px}
-#acercade{width:90%;margin:10px auto;padding:60px 0 5px 0;text-align:center}
+section{width:90%;margin:10px auto;padding:5px 0;text-align:center}
 .banner{width:90%;height:100%;margin:0 auto}
 .banner img{width:100%;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
 #info{width:100%}
@@ -69,6 +69,7 @@ nav ul li a{text-decoration:none;color:#fff;display:block;height:100%;text-align
 .perfil .avatar{width:20%;padding:0;margin:5px;display:inline-block;vertical-align:top;box-shadow:0 0 2px 1px;border-radius:5px}
 .perfil p{width:70%;padding:5px 2px;margin:0;text-align:LEFTy;display:inline-block;vertical-align:top;color:#010101;font-size:1.2em}
 .perfil .avatar img{width:100%;padding:0}
+#acercade{padding-top:70px}
 #conocimientos{width:30%;display:inline-block;vertical-align:top;margin:10px auto 10px 5px;padding:5px 10px;background-color:rgba(255,255,255,0.5);border:5px solid #ababab;border-top-right-radius:2px;border-bottom-right-radius:2px;box-shadow:1px 0 5px 1px;text-align:left}
 #conocimientos ul li{display:inline-block;vertical-align:top;margin:5px auto}
 .marcado1{background-color:#ddd;display:block;transition:all .6s ease}
@@ -78,14 +79,13 @@ nav ul li a{text-decoration:none;color:#fff;display:block;height:100%;text-align
 #conocimientos ol li{list-style-type:square;padding:0;margin:5px auto;list-style-position:inside}
 #conocimientos ul li img{border-radius:5px}
 #minicontacto{width:100%;text-align:center;padding:5px auto;margin:10px auto;display:block;font-size:1em;background-color:#ccc;bottom:0}
-#portafolio{width:90%;margin:10px auto;padding:10px 0 5px 0;color:#4d003c}
+#portafolio{padding:10px 0 5px 0;color:#4d003c}
 figure{width:35%;margin:10px 5px;padding:0;display:inline-block;vertical-align:top;background-color:rgba(205,0,47,0.6);border-radius:5px;trasition:all 1s ease;box-shadow:0 0 3px 2px}
 figure img{width:90%;padding-top:5px}
 figure:hover{background-color:rgba(205,0,47,0.4)}
 figure{trasition:all 1s ease}
 figure a{color:#09f}
 figure a:hover{transform:rotate -180deg;color:#0cf}
-#contacto{width:90%;margin:10px auto;padding:10px 0 5px 0;text-align:center}
 #formulario{width:45%;background-color:#1a99aa;text-align:center;padding:1em;vertical-align:top;display:inline-block}
 #formulario p{width:100%;font-size:1.5em;margin:.5em}
 .inputemail,.inputname,.inputmensaje{width:85%;border-radius:5px}
