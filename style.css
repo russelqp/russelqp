@@ -51,16 +51,6 @@ body{margin:0 auto;background-image:url("img/pattern3.png");background-color:rgb
 h1{font-family:'Righteous',cursive;font-size:2.2em;color:#cd002f}
 h2{text-shadow:0 1px 205,0,47,1;padding:10px auto;margin:5px auto;font-size:2em;font-family:'Righteous',cursive;color:rgba(205,0,47,0.8);width:100%;text-align:left}
 h3{margin:10px auto}
-<<<<<<< HEAD
-header{width:100%;position:fixed;top:0;padding:0;box-shadow:0 0 10px 2px}
-header #top{width:100%;background-color:#121212;display:block;padding:0;margin:0;border-bottom:5px solid rgba(205,0,47,0.8);height:60px}
-.logo{text-shadow:0 1px 0 #eee;display:inline-block;vertical-align:top;width:48%;margin:0 auto;padding:0;transition:all 1s ease;cursor:pointer}
-.logo:hover{color:#cd002f}
-nav{width:48%;display:inline-block;vertical-align:top;padding:0;height:100%}
-nav ul{padding:0;list-style:none;height:100%;vertical-align:middle}
-nav ul li{display:inline-block;background-color:#333;text-align:center;text-decoration:none;transition:all 1s ease;box-shadow:0 0 3px 0;margin:5px auto;background-color:rgba(205,0,47,0.4);height:100%}
-nav ul li:hover{background-color:#cd002f}
-=======
 header{width:100%;position:fixed;top:0;margin:0 auto;padding:0;box-shadow:0 0 10px 2px}
 header #top{width:100%;background-color:#121212;display:block;padding:0;margin:0}
 .logo{text-shadow:0 1px 0 #eee;display:inline-block;vertical-align:top;width:48%;margin:0;padding:0;transition:all 1s ease;cursor:pointer}
@@ -69,7 +59,6 @@ nav{width:48%;display:inline-block;vertical-align:top;margin:0;padding:0}
 nav ul{padding:0;margin:0;list-style:none}
 nav ul li{display:inline-block;background-color:#333;text-align:center;text-decoration:none;height:50px;transition:all 1s ease;box-shadow:0 0 3px 0;margin:5px auto;padding-top:10px;background-color:#cd002f}
 nav ul li:hover{background-color:#6dcd05}
->>>>>>> origin/master
 nav ul li a{text-decoration:none;color:#fff;display:block;height:100%;text-align:center;padding:5px}
 section{width:90%;margin:10px auto;padding:5px 0;text-align:center}
 .banner{width:90%;height:100%;margin:0 auto}
